@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "DataExporter.Controllers.PoliciesController",
+    "Method": "PostPolicies",
+    "RelativePath": "Policies",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createPolicyDto",
+        "Type": "DataExporter.Dtos.CreatePolicyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataExporter.Controllers.PoliciesController",
+    "Method": "GetPolicies",
+    "RelativePath": "Policies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataExporter.Controllers.PoliciesController",
+    "Method": "GetPolicy",
+    "RelativePath": "Policies/{policyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataExporter.Controllers.PoliciesController",
+    "Method": "ExportData",
+    "RelativePath": "Policies/export",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
